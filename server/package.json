@@ -1,0 +1,28 @@
+{
+  "name": "chat-with-socketio",
+  "version": "1.0.0",
+  "description": "Chat Messenger with SocketIO & Express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Seungyong Kwak",
+  "license": "ISC",
+  "devDependencies": {
+    "mongoose": "^5.2.12",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "socket.io": "^2.1.1"
+  },
+  "now": {
+    "env": {
+      "MONGO": "@mongodb_url"
+    }
+  }
+}
